@@ -5,7 +5,7 @@
 Este proyecto es un pequeño ejercicio en el cual se practico React-Router-DOM y se le hizo los test necesarios
 
 ## Demo
-[url](https://github.com/ArizHernandez)
+[url](https://arizhernandez.github.io/hero-app)
 
 ## Preview
   
