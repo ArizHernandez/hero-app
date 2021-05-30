@@ -1,0 +1,20 @@
+.login__page{
+  height: 90vh;
+}
+
+.login__container{
+  width: 100%;
+  background: #1c1c1c;
+}
+
+@media ( min-width: 768px){
+  .login__container{
+    width: 50%;
+  }
+}
+
+@media ( min-width: 1024px){
+  .login__container{
+    width: 25%;
+  }
+}

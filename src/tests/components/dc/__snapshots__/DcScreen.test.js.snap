@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DcScreen /> Debe cargar correctamente 1`] = `
+<div
+  className="container mt-3"
+>
+  <h1
+    className="text-center"
+  >
+    DC Screen
+  </h1>
+  <hr
+    className="mt-0 mb-4"
+  />
+  <HerosList
+    publisher="DC Comics"
+  />
+</div>
+`;

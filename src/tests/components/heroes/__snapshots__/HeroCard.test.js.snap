@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HeroCard /> Debe cargar correctamente 1`] = `
+<div
+  className="card text-center"
+>
+  <img
+    alt="..."
+    className="card-img-top"
+    src=""
+  />
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Batman
+    </h5>
+    <p
+      className="card-text hero-name"
+    >
+      Bruce Wayne
+    </p>
+    <p
+      className="card-text text-end mb-2"
+    >
+      <small
+        className="text-muted"
+      >
+        Detective Comics #27
+      </small>
+    </p>
+    <Link
+      className="btn btn-dark btn-block"
+      to="./hero/dc-batman"
+    >
+      Mas...
+    </Link>
+  </div>
+</div>
+`;

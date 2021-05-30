@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginScreen /> Debe de cargar correctamente 1`] = `
+<div
+  className="container login__page d-flex justify-content-center align-items-center"
+>
+  <div
+    className="login__container rounded text-center text-white mx-auto p-3"
+  >
+    <h1>
+      Login
+    </h1>
+    <hr
+      className="mt-2 mb-4"
+    />
+    <button
+      className="btn btn-primary mt-2"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

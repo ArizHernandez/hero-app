@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen /> Debe de cargarse correctamente 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="mt-3 text-center"
+  >
+    Search Heros
+  </h1>
+  <hr
+    className="mt-0"
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-md-5 col-lg-4"
+    >
+      <h3
+        className="text-center text-md-start"
+      >
+        Search
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="input-group"
+        >
+          <input
+            className="form-control"
+            name="heroName"
+            onChange={[Function]}
+            placeholder="Hero Name"
+            type="search"
+            value=""
+          />
+          <button
+            className="btn btn-primary"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col"
+    >
+      <h3
+        className="text-center mt-4 mt-md-0"
+      >
+        Results
+      </h3>
+      <div
+        className="row"
+      >
+        <p
+          className="mt-3 text-center fs-4 text-muted"
+        >
+           Search a new hero, now!! 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen /> Debe de mostrar a batman y el input con el valor del query string 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="mt-3 text-center"
+  >
+    Search Heros
+  </h1>
+  <hr
+    className="mt-0"
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-md-5 col-lg-4"
+    >
+      <h3
+        className="text-center text-md-start"
+      >
+        Search
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="input-group"
+        >
+          <input
+            className="form-control"
+            name="heroName"
+            onChange={[Function]}
+            placeholder="Hero Name"
+            type="search"
+            value="batman"
+          />
+          <button
+            className="btn btn-primary"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col"
+    >
+      <h3
+        className="text-center mt-4 mt-md-0"
+      >
+        Results
+      </h3>
+      <div
+        className="row"
+      >
+        <div
+          className="col-8 col-md-5 mb-2 mx-auto"
+          key="dc-batman"
+        >
+          <div
+            className="card text-center"
+          >
+            <img
+              alt="..."
+              className="card-img-top"
+              src=""
+            />
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                Batman
+              </h5>
+              <p
+                className="card-text"
+              >
+                Bruce Wayne
+              </p>
+              <p
+                className="card-text text-end mb-2"
+              >
+                <small
+                  className="text-muted"
+                >
+                  Detective Comics #27
+                </small>
+              </p>
+              <a
+                className="btn btn-dark btn-block"
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                Mas...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
